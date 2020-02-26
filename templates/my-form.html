@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <title>Save Account</title>
+</head>
+
+<body class="bg-ligh text-dark">
+        <div class="alert alert-info" role="alert">
+                Shaine's account QR by laxz
+              </div>
+    
+    <div class="container">
+        <form method="POST">
+            <div class="form-group">
+                <input type="email" name='email' class="form-control" placeholder="Enter email" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="password" name='password' class="form-control" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <input type="username" name='username' class="form-control" placeholder="Enter name" autocomplete="off">
+            </div>
+            <div class="my-1">
+                <select type='acctype' name='acctype' class="custom-select mr-sm-2">
+                    <option value="1">iCloud</option>
+                    <option value="2">Google</option>
+                    <option value="3">Facebook</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="textst" name='textst' class="form-control" placeholder="First Question" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="textnd" name='textnd' class="form-control" placeholder="Second Question" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <input type="textrd" name='textrd' class="form-control" placeholder="Third Question" autocomplete="off">
+            </div>
+            <div class="form-group">
+                <small>Date of Birth</small>
+                <input type="date" name='date' class="form-control">
+            </div>
+            <button type="submit" class="btn btn-primary">Proceed</button>
+        </form>
+    </div>
+</body>
+
+</html>
